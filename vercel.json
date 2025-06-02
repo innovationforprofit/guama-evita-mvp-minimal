@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "name": "guama-evita-mvp",
+  "name": "guama-evita-mvp-minimal",
   "functions": {
     "app/api/**/*.js": {
-      "runtime": "@vercel/node"
+      "runtime": "@vercel/node@18.2.0"
     }
   },
   "rewrites": [
